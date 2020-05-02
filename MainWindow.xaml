@@ -14,7 +14,7 @@
             <ColumnDefinition Width="3*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <m:Map x:Name="myMap" Focusable="False" CredentialsProvider="5TuKkKjN3tJXTIHPItZ1~ojBDhSADCTlnxWvrZU5oAQ~Ang3LK6Prpt9v0qz7cvNP1Os4PhPmESxfJLY8ivRLdiAIxEvjX13daIpE-qdN0Ia" 
+        <m:Map x:Name="myMap" Focusable="False" CredentialsProvider="YOUR BİNG MAP KEY HERE" 
                Mode="AerialWithLabels" AnimationLevel="Full"
             Center="{Binding ElementName=Satelite_Lat, Path=Text}" RenderTransformOrigin="0.569,0.524" Heading="0" ZoomLevel="18">
             <m:Pushpin x:Name="myMarker" Template="{StaticResource RedPushPinTemplate}" Height="Auto" Margin="275,159,204,127" Width="Auto">
